@@ -1,0 +1,321 @@
+@media (max-width: 1325px) {}
+
+@media (max-width: 1200px) {
+.menu-right ul li.dropdown .sub-btn img {
+    width: 30px;
+    height: 30px;
+}
+
+.menu-right ul li a {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.btn {
+    font-size: 15px;
+    width: auto;
+    padding: 0 20px;
+    line-height: 45px;
+}
+
+.menu-right ul {
+    margin: 0;
+}
+
+.search-t form input {
+    height: 45px;
+    font-size: 15px;
+}
+
+.search-t form i {
+    margin: 17px;
+    font-size: 12px;
+}
+
+.search-t form .search-btn {margin: 6px 15px;}
+
+.menu-body ul li a {
+    font-size: 16px;
+}
+
+.head-tab h3 {
+    font-size: 20px;
+}
+
+.head-tab .seeMore {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.head-tab {
+    margin: 15px 0;
+}
+
+.col-md-12 {
+    position: relative;
+}
+
+.menu-side ul li a {
+    font-size: 15px;
+    line-height: 34px;
+}
+
+.user-details .user-img {
+    width: 85px;
+    height: 85px;
+    line-height: 81px;
+}
+
+.user-img img {
+    width: 70px;
+    height: 70px;
+}
+
+.user-name h4 {
+    font-size: 15px;
+}
+
+.user-name span {
+    font-size: 12px;
+}
+
+.user-details .some-details ul li h5, .user-details .some-details ul li span {
+    font-size: 12px;
+}
+
+.user-details .some-details {
+    margin-bottom: 8px;
+}
+
+.menu-bottom ul li {
+    margin: 0 5px;
+}
+
+.copy-p p {
+    font-size: 9px;
+}
+
+.menu-bottom ul li a {
+    font-size: 9px;
+}
+    
+.block-pro .details-block .details-pro li {
+    font-size: 7px;
+}
+
+.block-pro .details-block .details-pro li::after {width: 3px;height: 3px;top: 3px;}
+
+.block-pro .details-block .bottom-block ul li {
+    font-size: 6px;
+}
+
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 991px) {
+    
+.res-menu {
+    display: block;
+    float: right;
+    padding: 17px 0;
+}
+ 
+.main-content .col-md-9.col-xs-12 , .col-md-3.col-xs-12.side-left {width: 100%;max-width: 100%;flex: auto;}
+
+.user-details, .menu-side, .menu-bottom, .copy-p {
+    display: none;
+}
+
+.logo {
+    float: left;
+    padding: 20px 0;
+}
+
+.btn-more-menu, .search-menu, .menu-right {
+    float: right;
+    width: auto;
+    padding: 0;
+}
+
+.menu-right .btn {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    padding: 0;
+}
+
+.content-head {
+    display: none;
+}
+    
+html, body {
+    overflow-x: hidden;
+}
+    
+.sidebar .user-details {
+    display: block;
+    position: relative;
+    z-index: 3;
+    background: var(--main-color);
+    margin-top: 70px;
+}
+
+.user-name h4 {
+    color: #fff;
+}
+
+.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden, .mCSB_inside>.mCSB_container {
+    float: right;
+    width: 100%;
+}
+
+.user-details .some-details {
+    margin-bottom: 15px;
+}
+
+.user-details .user-img {
+    margin-top: -50px;
+}
+
+.user-name span {
+    color: #fff;
+}
+
+.user-details .some-details ul li h5 {
+    color: #fff;
+}
+
+.user-details .some-details ul li span {
+    opacity: .9;
+    color: #fff;
+}
+    
+.content-body {
+    padding: 0 20px;
+}
+}
+
+@media (max-width: 767px) {
+.content-body .col-md-2.col-xs-12 {
+    display: none;
+}
+
+.content-body .col-md-10.col-xs-12 {
+    width: 100%;
+    max-width: 100%;
+    flex: auto;
+}
+
+.nav.nav-pills {
+    position: relative;
+    right: -8px;
+}
+
+.main-content .col-md-9.col-xs-12 {
+    padding: 0 30px;
+}
+
+.block-pro {
+    width: 33.33%;
+}
+
+.block-pro .img-block {
+    height: 120px;
+}
+    
+
+}
+
+@media (max-width: 600px) {
+.menu-body ul li a {
+    font-size: 15px;
+    margin-right: 17px;
+    padding: 5px 0;
+}
+}
+
+@media (max-width: 480px) {
+.searchForm .btnSearch, .open-sidebar, .menu-right .btn {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.menu-right ul li a {
+    font-size: 20px;
+    margin-left: 14px;
+    line-height: 40px;
+}
+
+.searchForm .btnSearch {
+    margin: 0 0 0 6px;
+}
+
+.menu-right ul li a .notifiction-al {
+    width: 6px;
+    height: 6px;
+    right: 0;
+    top: 0;
+}
+
+.menu-right ul {
+    line-height: normal;
+}
+
+.menu-right ul li {
+}
+
+.menu-body ul {
+    white-space: nowrap;
+    overflow: hidden;
+    float: none;
+    display: block;
+    overflow-x: auto;
+}
+
+.menu-body ul li {
+    float: none;
+    display: inline-block;
+}
+
+.block-pro {
+    width: 50%;
+}
+    
+.sidebar {
+    width: 280px;
+}
+
+.sidebar .side-nav ul li a {
+    font-size: 15px;
+}
+    
+}
+
+@media (max-width: 400px) {
+.logo a {
+    display: block;
+    max-width: 97px;
+    margin-top: 0;
+}
+    
+.menu-right ul li a {
+    line-height: 40px;
+}
+}
+
+@media(max-width: 370px){
+.menu-right .btn {
+    display: none;
+}
+    
+.head-tab h3 {
+    font-size: 18px;
+}
+
+.head-tab .seeMore {
+    font-size: 9px;
+}
+}

@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <meta name="author" content="Hadeer Magdy">
+    <meta name="description" content="NumScroller - jQuery plugin for number increment rolling animation when it becomes visibile while scrolling">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tajerz</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+<!--    <link href="css/style-en.css" rel="stylesheet" type="text/css" />-->
+    <link href="css/mobile.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="main-content">
+        <div class="row">
+            <!-- Start side -->
+            <div class="col-md-2 col-xs-12 side-left">
+                <div class="side-head">
+                    <div class="logo"><a href="index.html"><img src="images/logo.png" /></a></div>
+                    <div class="res-menu">
+                        <div class="btn-more-menu">
+                            <button class="btn-menu open-sidebar">
+                                <i class="fal fa-bars"></i>
+                            </button>
+                        </div>
+                        <div class="search-menu">
+                            <div class="searchForm">
+                                <button class="btnSearch"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                        <div class="menu-right">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fal fa-bell"></i>
+                                        <span class="notifiction-al"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fal fa-heart"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fal fa-envelope"></i>
+                                        <span class="notifiction-al"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="#" class="btn"><i class="fal fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-details">
+                    <div class="user-img">
+                        <img src="images/user.png" />
+                    </div>
+                    <div class="user-name">
+                        <h4>Emma Watson</h4>
+                        <span>Riyadh, Saudi Arabia</span>
+                    </div>
+                    <div class="some-details">
+                        <ul>
+                            <li>
+                                <h5>Posts</h5>
+                                <span>116</span>
+                            </li>
+                            <li>
+                                <h5>Followers</h5>
+                                <span>48m</span>
+                            </li>
+                            <li>
+                                <h5>Followings</h5>
+                                <span>48m</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-side">
+                    <ul>
+                        <li class="active">
+                            <a href="#">
+                                <i class="fal fa-home"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fal fa-compass"></i>
+                                <span>Vehicles</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fal fa-hashtag"></i>
+                                <span>Electronics</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fal fa-check-circle"></i>
+                                <span>Real Estate</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fal fa-bell"></i>
+                                <span>Pets</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fal fa-cog"></i>
+                                <span>Others</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-bottom">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                About Us 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Additonal Info
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Terms & Conditions
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                FAQ’s
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="copy-p">
+                    <p>Tajerz @ 2020</p>
+                </div>
+            </div>
+            <!-- End side -->
+            
+            <!-- Start Content-p -->
+            <div class="col-md-9 col-xs-12 container-fluid">
+                <!-- Content-head -->
+                <div class="content-head">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <!-- Col -->
+                                <div class="col-md-6 col-xs-12">
+                                    <div class="search-t">
+                                        <form action="#">
+                                            <input type="search" placeholder="Search" />
+                                            <i class="fa fa-search"></i>
+                                            <button type="submit" class="search-btn"><i class="fal fa-microphone"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- /Col -->
+                                <!-- Col -->
+                                <div class="col-md-6 col-xs-12">
+                                    <div class="menu-right">
+                                        <ul>
+                                            <li class="dropdown">
+                                                <a class="sub-btn">
+                                                    <img src="images/user2.png" />
+                                                    <i class="fa fa-caret-down"></i>
+                                                </a>
+                                                <ul class="sub-menu">
+                                                    <li>
+                                                        <a href="#"><i class="fal fa-user"></i> Profile</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><i class="fal fa-sign-out"></i> Logout</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fal fa-bell"></i>
+                                                    <span class="notifiction-al"></span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fal fa-heart"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fal fa-envelope"></i>
+                                                    <span class="notifiction-al"></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <a href="#" class="btn"><i class="fal fa-plus"></i> Post your Ad</a>
+                                    </div>
+                                </div>
+                                <!-- /Col -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End -->
+                
+                <!-- Content-body -->
+                <div class="content-body">
+                    <div class="col-md-12">
+                        <div class="menu-body">
+                            <ul>
+                                <li class="active">
+                                    <a href="#">
+                                        All Ads
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        For sale
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Needed
+                                    </a>
+                                </li>
+                                <li class="main-color">
+                                    <a href="#">
+                                        Top Sellers
+                                    </a>
+                                </li>
+                                <li class="main-color">
+                                    <a href="#">
+                                        Special Offers
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="nav nav-pills">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="pill" href="#con">
+                                            <i class="fal fa-th-large"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="pill" href="#con2">
+                                            <i class="fa fa-bars"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Col -->
+                            <div class="col-md-10 col-xs-12">
+                                <div class="tab-content">
+                                    <!-- Tab1 -->
+                                    <div id="con" class="tab-pane active">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="head-tab">
+                                                    <h3>Property for Rent</h3>
+                                                    <a href="#" class="seeMore">
+                                                        All in Property for Rent <i class="fa fa-arrow-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- Start Col -->
+                                            <div class="col-md-12">
+                                                <div class="blocks-all">
+                                                    <!-- Block-pro -->
+                                                    <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/p1.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/ci1.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">Spcial Offer ! No Depodity Easy</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    2 Beds
+                                                                </li>
+                                                                <li>
+                                                                    2 Bath
+                                                                </li>
+                                                                <li>
+                                                                    1470 AqFt
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Industrial Area 16
+                                                                    </li>
+                                                                    <li>
+                                                                        1 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                    <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/p2.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/ci1.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">Spcial Offer ! No Depodity Easy</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    2 Beds
+                                                                </li>
+                                                                <li>
+                                                                    2 Bath
+                                                                </li>
+                                                                <li>
+                                                                    1470 AqFt
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Industrial Area 16
+                                                                    </li>
+                                                                    <li>
+                                                                        1 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                    <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/p3.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/ci1.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">Spcial Offer ! No Depodity Easy</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    2 Beds
+                                                                </li>
+                                                                <li>
+                                                                    2 Bath
+                                                                </li>
+                                                                <li>
+                                                                    1470 AqFt
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Industrial Area 16
+                                                                    </li>
+                                                                    <li>
+                                                                        1 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                    <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/p1.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/ci1.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">Spcial Offer ! No Depodity Easy</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    2 Beds
+                                                                </li>
+                                                                <li>
+                                                                    2 Bath
+                                                                </li>
+                                                                <li>
+                                                                    1470 AqFt
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Industrial Area 16
+                                                                    </li>
+                                                                    <li>
+                                                                        1 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                    <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/p2.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/ci1.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">Spcial Offer ! No Depodity Easy</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    2 Beds
+                                                                </li>
+                                                                <li>
+                                                                    2 Bath
+                                                                </li>
+                                                                <li>
+                                                                    1470 AqFt
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Industrial Area 16
+                                                                    </li>
+                                                                    <li>
+                                                                        1 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                </div>
+                                            </div>
+                                            <!-- End Col -->
+                                        </div>
+                                        
+                                        
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="head-tab">
+                                                    <h3>Used Cars for Sale</h3>
+                                                    <a href="#" class="seeMore">
+                                                        All in Used Cars <i class="fa fa-arrow-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- Start Col -->
+                                            <div class="col-md-12">
+                                                <div class="blocks-all">
+                                                    <!-- Block-pro -->
+                                                    <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/c1.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/brand.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">AED1220 | 2014 Jeep</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    Year: 2014
+                                                                </li>
+                                                                <li>
+                                                                    KM: 93.818
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Al Barsha 1
+                                                                    </li>
+                                                                    <li>
+                                                                        7 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                     <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/c2.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/brand.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">AED1220 | 2014 Jeep</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    Year: 2014
+                                                                </li>
+                                                                <li>
+                                                                    KM: 93.818
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Al Barsha 1
+                                                                    </li>
+                                                                    <li>
+                                                                        7 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                     <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/c3.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/brand.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">AED1220 | 2014 Jeep</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    Year: 2014
+                                                                </li>
+                                                                <li>
+                                                                    KM: 93.818
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Al Barsha 1
+                                                                    </li>
+                                                                    <li>
+                                                                        7 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                     <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/c1.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/brand.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">AED1220 | 2014 Jeep</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    Year: 2014
+                                                                </li>
+                                                                <li>
+                                                                    KM: 93.818
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Al Barsha 1
+                                                                    </li>
+                                                                    <li>
+                                                                        7 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                     <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/c2.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/brand.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">AED1220 | 2014 Jeep</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    Year: 2014
+                                                                </li>
+                                                                <li>
+                                                                    KM: 93.818
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Al Barsha 1
+                                                                    </li>
+                                                                    <li>
+                                                                        7 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                </div>
+                                            </div>
+                                            <!-- End Col -->
+                                        </div>
+                                    </div>
+                                    <!-- /Tab1 -->
+                                    
+                                    <!-- Tab2 -->
+                                    <div id="con2" class="tab-pane fade">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="head-tab">
+                                                    <h3>Property for Rent</h3>
+                                                    <a href="#" class="seeMore">
+                                                        All in Property for Rent <i class="fa fa-arrow-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- Start Col -->
+                                            <div class="col-md-12">
+                                                <div class="blocks-all row-item">
+                                                    <!-- Block-pro -->
+                                                    <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/p1.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/ci1.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">Spcial Offer ! No Depodity Easy</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    2 Beds
+                                                                </li>
+                                                                <li>
+                                                                    2 Bath
+                                                                </li>
+                                                                <li>
+                                                                    1470 AqFt
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Industrial Area 16
+                                                                    </li>
+                                                                    <li>
+                                                                        1 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                    <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/p2.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/ci1.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">Spcial Offer ! No Depodity Easy</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    2 Beds
+                                                                </li>
+                                                                <li>
+                                                                    2 Bath
+                                                                </li>
+                                                                <li>
+                                                                    1470 AqFt
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Industrial Area 16
+                                                                    </li>
+                                                                    <li>
+                                                                        1 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                    <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/p3.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/ci1.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">Spcial Offer ! No Depodity Easy</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    2 Beds
+                                                                </li>
+                                                                <li>
+                                                                    2 Bath
+                                                                </li>
+                                                                <li>
+                                                                    1470 AqFt
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Industrial Area 16
+                                                                    </li>
+                                                                    <li>
+                                                                        1 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                    <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/p1.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/ci1.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">Spcial Offer ! No Depodity Easy</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    2 Beds
+                                                                </li>
+                                                                <li>
+                                                                    2 Bath
+                                                                </li>
+                                                                <li>
+                                                                    1470 AqFt
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Industrial Area 16
+                                                                    </li>
+                                                                    <li>
+                                                                        1 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                    <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/p2.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/ci1.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">Spcial Offer ! No Depodity Easy</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    2 Beds
+                                                                </li>
+                                                                <li>
+                                                                    2 Bath
+                                                                </li>
+                                                                <li>
+                                                                    1470 AqFt
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Industrial Area 16
+                                                                    </li>
+                                                                    <li>
+                                                                        1 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                </div>
+                                            </div>
+                                            <!-- End Col -->
+                                        </div>
+                                        
+                                        
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="head-tab">
+                                                    <h3>Used Cars for Sale</h3>
+                                                    <a href="#" class="seeMore">
+                                                        All in Used Cars <i class="fa fa-arrow-right"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <!-- Start Col -->
+                                            <div class="col-md-12">
+                                                <div class="blocks-all row-item">
+                                                    <!-- Block-pro -->
+                                                    <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/c1.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/brand.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">AED1220 | 2014 Jeep</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    Year: 2014
+                                                                </li>
+                                                                <li>
+                                                                    KM: 93.818
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Al Barsha 1
+                                                                    </li>
+                                                                    <li>
+                                                                        7 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                     <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/c2.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/brand.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">AED1220 | 2014 Jeep</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    Year: 2014
+                                                                </li>
+                                                                <li>
+                                                                    KM: 93.818
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Al Barsha 1
+                                                                    </li>
+                                                                    <li>
+                                                                        7 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                     <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/c3.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/brand.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">AED1220 | 2014 Jeep</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    Year: 2014
+                                                                </li>
+                                                                <li>
+                                                                    KM: 93.818
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Al Barsha 1
+                                                                    </li>
+                                                                    <li>
+                                                                        7 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                     <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/c1.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/brand.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">AED1220 | 2014 Jeep</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    Year: 2014
+                                                                </li>
+                                                                <li>
+                                                                    KM: 93.818
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Al Barsha 1
+                                                                    </li>
+                                                                    <li>
+                                                                        7 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                    <!-- Block-pro -->
+                                                     <div class="block-pro">
+                                                        <a href="#" class="img-block">
+                                                            <img src="images/c2.png" />
+                                                            <span class="total-images">10 images</span>
+                                                        </a>
+                                                        <div class="details-block">
+                                                            <div class="price-pro">
+                                                                <span class="price-t">AED 36,000</span>
+                                                                <div class="img-city"><img src="images/brand.png" /></div>
+                                                            </div>
+                                                            <a href="#" class="name-pro">AED1220 | 2014 Jeep</a>
+                                                            <ul class="details-pro">
+                                                                <li>
+                                                                    Year: 2014
+                                                                </li>
+                                                                <li>
+                                                                    KM: 93.818
+                                                                </li>
+                                                            </ul>
+                                                            <div class="bottom-block">
+                                                                <ul>
+                                                                    <li>
+                                                                        Al Barsha 1
+                                                                    </li>
+                                                                    <li>
+                                                                        7 mins
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Block-pro -->
+                                                </div>
+                                            </div>
+                                            <!-- End Col -->
+                                        </div>
+                                    </div>
+                                    <!-- /Tab1 -->
+                                </div>
+                            </div>
+                            <!-- /Col -->
+                            <!-- Col -->
+                            <div class="col-md-2 col-xs-12">
+                                <div class="banner-right">
+                                    <div class="img-banner">
+                                        <a href="#">
+                                            <img src="images/banner.png" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Col -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End -->
+            </div>
+            <!-- End Content-p -->
+        </div>
+    </div>
+    
+    
+
+    <!-- Start SideBar -->
+    <div class="overlay_gen"></div>
+    <div class="sidebar">
+        <div class="user-details">
+            <div class="user-img">
+                <img src="images/user.png" />
+            </div>
+            <div class="user-name">
+                <h4>Emma Watson</h4>
+                <span>Riyadh, Saudi Arabia</span>
+            </div>
+            <div class="some-details">
+                <ul>
+                    <li>
+                        <h5>Posts</h5>
+                        <span>116</span>
+                    </li>
+                    <li>
+                        <h5>Followers</h5>
+                        <span>48m</span>
+                    </li>
+                    <li>
+                        <h5>Followings</h5>
+                        <span>48m</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="side-nav">
+            <ul>
+                <li class="active">
+                <a href="#">
+                    <i class="fal fa-home"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fal fa-compass"></i>
+                    <span>Vehicles</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fal fa-hashtag"></i>
+                    <span>Electronics</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fal fa-check-circle"></i>
+                    <span>Real Estate</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fal fa-bell"></i>
+                    <span>Pets</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fal fa-cog"></i>
+                    <span>Others</span>
+                </a>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End SideBar -->
+    
+    <!-- Start Form Search -->
+    <div class="site-search">
+        <div class="site-search-close"></div>
+        <div class="site-search-inner">
+            <div class="widget woocommerce widget_product_search">
+                <form role="search" method="get" class="woocommerce-product-search" action="#">
+                    <label class="screen-reader-text" for="woocommerce-product-search-field-1">Search </label>
+                    <input type="search" id="woocommerce-product-search-field-1" class="search-field" placeholder="Search..." value="" name="s">
+                    <button><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End Form Search -->
+    
+    
+    
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/responsiveCarousel.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/java.js"></script>
+</body>
+
+</html>

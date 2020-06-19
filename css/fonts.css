@@ -1,0 +1,59 @@
+@font-face {
+	font-family: 'neo';
+	src: url('../fonts/NeoSansArabic.ttf');
+	src: url('../fonts/NeoSansArabic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'neoBold';
+	src: url('../fonts/NeoSansArabic-Bold.ttf');
+	src: url('../fonts/NeoSansArabic-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'neoLight';
+	src: url('../fonts/NeoSansArabic-Light.ttf');
+	src: url('../fonts/NeoSansArabic-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'neoMed';
+	src: url('../fonts/NeoSansArabic-Medium.ttf');
+	src: url('../fonts/NeoSansArabic-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'dro';
+	src: url('../fonts/DroidKufi-Regular.ttf');
+	src: url('../fonts/DroidKufi-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'bahijPlain';
+	src: url('../fonts/Bahij_TheSansArabic-Plain.ttf');
+	src: url('../fonts/Bahij_TheSansArabic-Plain.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'bahijBold';
+	src: url('../fonts/Bahij_TheSansArabic-Bold.ttf');
+	src: url('../fonts/Bahij_TheSansArabic-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'bahijLight';
+	src: url('../fonts/Bahij_TheSansArabic-Light.ttf');
+	src: url('../fonts/Bahij_TheSansArabic-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
